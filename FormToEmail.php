@@ -98,7 +98,7 @@ Enter the email address below to send the contents of the form to.  You can ente
 
 */
 
-$my_email = "fabiocasagrande86@gmail.com";
+$my_email = "richard.simpson@nyit.edu";
 
 /*
 
@@ -230,9 +230,9 @@ mail($my_email,$subject,$message,$headers);
 
 <div>
 <center>
-<b>Thank you <?php if(isset($_REQUEST['name'])){print stripslashes($_REQUEST['name']);} ?></b>
-<br>Your message has been sent
-<p><a href="<?php print $continue; ?>">Click here to continue</a></p>
+<b><h2>Thank you</h2> <?php if(isset($_REQUEST['name'])){print stripslashes($_REQUEST['name']);} ?></b>
+<br>
+<h2>We notified the professor that you completed the test</h2>
 </center>
 </div>
 
