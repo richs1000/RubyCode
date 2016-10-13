@@ -190,7 +190,7 @@ $message = $message . PHP_EOL.PHP_EOL."-- ".PHP_EOL."SmartSparrow";
 
 $message = stripslashes($message);
 
-$subject = "Smart Sparrow - Student Test Completation";
+$subject = "Smart Sparrow - Student Test Completion";
 
 $subject = stripslashes($subject);
 
